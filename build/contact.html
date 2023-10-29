@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind tutrial</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-black">
+    <div> <!--wrapper-->
+        <div class="sm:col-span-1 md:col-span-1 md:flex md:justify-center"> <!--div for nav-->
+            <nav class="md:text-center text-white mb-5 p-3">
+                <div>
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100 hover:text-yellow-500"> 
+                        <a href="">Food By Tolzz</a>
+                    </h1>
+                </div>
+                <ul class=" md:flex flex-row gap-24 text-sm mt-9">
+                    <li class="font-bold mb-1 hover:text-blue-600 transition ease-out duration-500">
+                        <a href="./home.html">
+                           <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="font-bold mb-1 hover:text-blue-600 transition ease-out duration-500">
+                        <a href="./menu.html">
+                           <span>Menu</span>
+                        </a>
+                    </li>
+                    <li class="font-bold mb-1 hover:text-blue-600 transition ease-out duration-500">
+                        <a href="./about.html">
+                           <span>About Us</span>
+                        </a>
+                    </li>
+                    <li class="font-bold mb-1 hover:text-blue-600 transition ease-out duration-500">
+                        <a href="./contact.html">
+                           <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div> <!--end of nav-->
+        <main class="overflow-hidden md:flex flex-row-2 p-10 justify-center gap-10 text-white">
+            <div class="">
+                <img src="./images/map.jpeg" alt="map" class="w-96 h-96 rounded">
+            </div>
+            <div class="mt-8 font-bold leading-8 md:justify-center text-xl font-serif italic">
+                <p class="lowercase italic"><span class="italic font-bold text-center uppercase text-red-500 tracking-wide">Contact Us</span> FOR COMMENTS, SUGESTIONS AND QUESTIONS ABOUT OUR RESTAURANTS</p>
+                <h1 class="font-bold text-red-500 italic mt-7">We welcome your questions.</h1>
+                <p>We'll be happy to respond to any questions or provide any information that will answer your needs.</p>
+                <p class="mt-10">39 Tinubu street,Abeokuta, Nigeria</p>
+                <p class="text-green-500">Phone: +234 109 913 788</p>
+                <p class="text-green-500">Email: tolzz@gmail.com</p>
+            </div>
+        </main>
+    </div> <!--wrapper end-->
+</body>
+</html>
