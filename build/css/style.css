@@ -634,6 +634,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -665,6 +669,50 @@ video {
 
 .bg-\[url\(\'\/build\/images\/Bgpicture4\.jpeg\'\)\] {
   background-image: url('/build/images/Bgpicture4.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/Bgpicture3\.jpeg\'\)\] {
+  background-image: url('/build/images/Bgpicture3.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/Bgpicture2\.jpeg\'\)\] {
+  background-image: url('/build/images/Bgpicture2.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/\.jpeg\'\)\] {
+  background-image: url('/build/images/.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/fr\.jpeg\'\)\] {
+  background-image: url('/build/images/fr.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/fro\.jpeg\'\)\] {
+  background-image: url('/build/images/fro.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/front\.jpeg\'\)\] {
+  background-image: url('/build/images/front.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/frontpage\.jpeg\'\)\] {
+  background-image: url('/build/images/frontpage.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/Bg\.jpeg\'\)\] {
+  background-image: url('/build/images/Bg.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/Bgpicture\.jpeg\'\)\] {
+  background-image: url('/build/images/Bgpicture.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/Bgpicture1\.jpeg\'\)\] {
+  background-image: url('/build/images/Bgpicture1.jpeg');
+}
+
+.bg-\[url\(\'\/build\/images\/Bgpicture12\.jpeg\'\)\] {
+  background-image: url('/build/images/Bgpicture12.jpeg');
 }
 
 .object-cover {
